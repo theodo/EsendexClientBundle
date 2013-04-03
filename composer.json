@@ -1,0 +1,19 @@
+{
+    "name": "theodo/esendex-client-bundle",
+    "type": "symfony-bundle",
+    "description": "Theodo Esendex REST API Client Bundle",
+    "license": "MIT",
+    "keywords": ["Esendex", "Guzzle", "Theodo"],
+    "authors": [
+        { "name": "Nicolas Bazire", "email": "nicolasb@theodo.fr" }
+    ],
+    "autoload": {
+        "psr-0": { "Theodo\\Bundle\\EsendexClient\\": "" }
+    },
+    "target-dir": "Theodo/Bundle/EsendexClient",
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": "2.1.*",
+        "theodo/esendex-client":    "dev-master"
+    }
+}

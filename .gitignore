@@ -1,0 +1,7 @@
+phpunit.xml
+composer.phar
+*.swp
+*~
+
+.idea/
+vendor/
