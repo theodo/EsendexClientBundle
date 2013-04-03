@@ -1,7 +1,7 @@
 {
     "name": "theodo/esendex-client-bundle",
     "type": "symfony-bundle",
-    "description": "Theodo Esendex REST API Client Bundle",
+    "description": "Esendex REST API Client Bundle",
     "license": "MIT",
     "keywords": ["Esendex", "Guzzle", "Theodo"],
     "authors": [
