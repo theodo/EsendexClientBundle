@@ -43,6 +43,8 @@ Configuration
         
 3. Send the message
 
+::
+
     $esendex_client = $container->get('esendex_client');
     $esendex_client->getCommand('MessageDispatcher', array(
         'messages' => array(
